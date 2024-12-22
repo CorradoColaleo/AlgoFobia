@@ -28,3 +28,8 @@ class Solution:
                 else:
                     memo[i] = 1 + memo[i - 1]
         return memo[n]
+
+
+#Da notare che su leetcode questo non viene accettato per TLE. Ho provato
+#anche a portarlo in java ma da Memory Limit! La logica comunque resta corretta
+# con il DP
